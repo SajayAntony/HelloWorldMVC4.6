@@ -3,4 +3,4 @@ msbuild /p:DeployOnBuild=true /p:PublishProfile=File /p:PublishUrl=.\artifacts\p
 msbuild /p:DeployOnBuild=true /p:PublishProfile=File /p:PublishUrl=.\artifacts\no-precompiled /p:PrecompileBeforePublish=False
 popd
 
-ECHO Published to %~dp0/artifacts
+ECHO Published to %~dp0artifacts
